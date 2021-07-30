@@ -40,8 +40,8 @@ var server = app.listen(app.get('port'), function () {
 // Initialize the 2-legged OAuth2 client, and
 // set specific scopes
 //-------------------------------------------------------------------
-var FORGE_CLIENT_ID = process.env.FORGE_CLIENT_ID;
-var FORGE_CLIENT_SECRET = process.env.FORGE_CLIENT_SECRET;
+var FORGE_CLIENT_ID = '9NLZlpbTNHZoSXGus6gkYCVFABLBHPJO';
+var FORGE_CLIENT_SECRET = 'q42ofR6Vs0ivNR5R';
 var access_token = '';
 var scopes = 'data:read data:write data:create bucket:create bucket:read';
 const querystring = require('querystring');
